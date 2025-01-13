@@ -22,7 +22,6 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"]))) {
                 /* Fetch result row as an associative array. Since the result set
                 contains only one row, we don't need to use while loop */
                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-
                 // Retrievegg individual field value
                 $name = $row["name"];
                 $address = $row["address"];
