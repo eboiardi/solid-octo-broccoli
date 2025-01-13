@@ -23,7 +23,7 @@ if (isset($_GET["id"]) && !empty(trim($_GET["id"]))) {
                 contains only one row, we don't need to use while loop */
                 $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 
-                // Retrieve individual field value
+                // Retrievegg individual field value
                 $name = $row["name"];
                 $address = $row["address"];
                 $salary = $row["salary"];
